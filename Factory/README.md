@@ -34,3 +34,4 @@ La empres
 <img width="458" height="651" alt="image" src="https://github.com/user-attachments/assets/5bbccae2-6bb3-4710-8963-2486ebce55c7" />
 
 <img width="458" height="646" alt="image" src="https://github.com/user-attachments/assets/317d39d0-157f-45d9-b986-7459795bcb4d" />
+
