@@ -1,20 +1,16 @@
-# 🧬 Patrón Prototype
-
-El
-
----
+# 🧬 Patrón Abstract
 
 ## Descripción del Proceso: Creación de Planes de Mantenimiento
 
-La empres
+En una empresa de transporte y mensajería, la creación de facturas o tiquetes es un proceso esencial para registrar las ventas de servicios. Cada factura debe incluir información clave como el cliente, destino, valor del servicio, cantidad y un identificador único que permita su trazabilidad dentro del sistema. Sin embargo, el proceso de creación no es idéntico para todos los casos. Existen diferentes tipos de tiquetes (por ejemplo, tiquete de pasajero y tiquete de paquete) que comparten ciertos datos, pero difieren en la forma en que se generan y administran. 
+
+El Abstract Factory Method permite crear objetos de diferentes tipos de tiquetes sin acoplar directamente la lógica de construcción dentro del controlador. 
+ Cada tipo de tiquete (paquete o pasajero) tiene su propia fábrica concreta, que se encarga de instanciar el objeto adecuado a partir de los mismos parámetros base. 
 
 **Ventajas:**
-- Evita 
-
----
-
-## Aplicación del Patrón
-
+- Facilita la extensión del sistema (por ejemplo, agregar un nuevo tipo de tiquete en el futuro sin modificar el controlador).
+- Promueve la separación de responsabilidades entre el controlador y la lógica de creación.
+- Reduce el acoplamiento y mejora la mantenibilidad del código.
 
 ---
 
@@ -34,4 +30,3 @@ La empres
 <img width="458" height="651" alt="image" src="https://github.com/user-attachments/assets/5bbccae2-6bb3-4710-8963-2486ebce55c7" />
 
 <img width="458" height="646" alt="image" src="https://github.com/user-attachments/assets/317d39d0-157f-45d9-b986-7459795bcb4d" />
-
