@@ -1,9 +1,5 @@
 # 🧬 Patrón Abstract
 
-El
-
----
-
 ## Descripción del Proceso: Creación de pagos
 
 En una empresa de transporte y mensajería, el proceso de gestión de pagos es esencial para asegurar que todas las transacciones. Cada pago puede realizarse por diferentes medios, como efectivo o tarjeta, y aunque ambos comparten la misma información base (identificador, monto y registro de transacción), su comportamiento y validación varían según el tipo de pago. Por ejemplo: 
