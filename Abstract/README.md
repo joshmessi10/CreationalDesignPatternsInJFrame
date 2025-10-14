@@ -1,4 +1,4 @@
-# 🧬 Patrón Abstract
+# 🧬 Patrón Factory
 
 ## Descripción del Proceso: Creación de pagos
 
